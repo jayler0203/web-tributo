@@ -3,37 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Bersek tributo</title>
   </head>
-  <body>
-    <header>
-      <img src="Imagenes/Logo.png" alt="" />
-      <nav>
-        <ul>
-          <li><a href="trama.html">Argumento</a></li>
-          <li><a href="personajes.html">Personajes</a></li>
-          <li><a href="autor.html">Autor</a></li>
-          <li><a href="legado.html">Legado</a></li>
+  <body class="divide-y divide-red-800 ">
+    <header class="flex flex-row  justify-between bg-black border-rose-500">
+      <img src="Imagenes/Logo.png" alt=""  class="w-12 ml-10"/>
+      <nav class="">
+        <ul class="flex flex-row w-96 justify-between mr-10 mt-6">
+          <li><a href="trama.html" class="text-red-800">Argumento</a></li>
+          <li><a href="personajes.html" class="text-red-800">Personajes</a></li>
+          <li><a href="autor.html" class="text-red-800">Autor</a></li>
+          <li><a href="legado.html" class="text-red-800">Legado</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-      <img src="Imagenes/nombreLogo.png" alt="" />
-      <p>
-        Entra en el oscuro y fascinante mundo de Berserk, un manga que ha
-        cautivado a aficionados de todo el mundo con su narrativa épica,
-        personajes complejos y una trama envuelta en oscuridad y redención.
-      </p>
-      <p>
-        Prepárate para adentrarte en un universo donde la valentía, la traición
-        y la lucha contra monstruos de pesadilla se entrelazan en una historia
-        inolvidable.
-      </p>
-      <p>
-        Este tributo está diseñado para celebrar y explorar cada aspecto de la
-        obra maestra creada por Kentaro Miura, un genio de la narrativa que nos
-        dejó un legado perdurable.
-      </p>
+    <main class="bg-[url('Imagenes/Background.png')] h-screen flex flex-col items-center  bg-cover bg-center h-screen " >
+      <article class="flex flex-col items-center  bg-zinc-900 w-1/2 p-4 h-full">   
+      <img src="Imagenes/nombreLogo.png" alt="" class="mt-6"/>
+      <section class="mt-8">
+        <p class="text-stone-50 text-2xl">
+          Entra en el oscuro y fascinante mundo de Berserk, un manga que ha
+          cautivado a aficionados de todo el mundo con su narrativa épica,
+          personajes complejos y una trama envuelta en oscuridad y redención.
+        </p >
+        <p class="text-stone-50 text-2xl">
+          Prepárate para adentrarte en un universo donde la valentía, la traición
+          y la lucha contra monstruos de pesadilla se entrelazan en una historia
+          inolvidable.
+        </p>
+        <p class="text-stone-50 text-2xl"> 
+          Este tributo está diseñado para celebrar y explorar cada aspecto de la
+          obra maestra creada por Kentaro Miura, un genio de la narrativa que nos
+          dejó un legado perdurable.
+        </p>
+
+      </section>
+
+    </article>
+      
     </main>
     <footer></footer>
   </body>
